@@ -10,7 +10,8 @@
     "jest"
   ],
   "scripts": {
-    "test:automate": "jest test/automate.test.js"
+    "test:automate": "jest test/automate.test.js",
+    "newtest": "jest test/new.test.js"
   },
   "author": "Open source example",
   "license": "MIT",
