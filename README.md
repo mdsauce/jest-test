@@ -1,7 +1,7 @@
 # Jest Selenium Sauce Labs Example
 
 1. Clone it `git clone git@github.com:alexgriffen/jest-selenium-saucelabs.git`
-2. `cd jestSelenium`
+2. `cd jest-selenium-saucelabs`
 3. Save your Sauce Labs username and accessKey as environment variables (SAUCE_USERNAME and SAUCE_ACCESS_KEY), or hardcode them in /test/automate.test.js
 4. Run selected tests (see scripts section below) and/or modify source
 
