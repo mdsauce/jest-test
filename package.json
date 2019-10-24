@@ -1,0 +1,26 @@
+{
+  "name": "jestSelenium",
+  "version": "0.1.0",
+  "description": "How to use Jest with Selenium tests on Sauce Labs",
+  "keywords": [
+    "javascript",
+    "selenium",
+    "saucelabs",
+    "test",
+    "jest"
+  ],
+  "scripts": {
+    "test:automate": "jest test/automate.test.js"
+  },
+  "author": "Open source example",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-jest": "^23.6.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.6.0",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  },
+  "dependencies": {}
+}
