@@ -69,6 +69,7 @@ describe('webdriver', () => {
       // may help with debugging
       // const src = await driver.getPageSource();
       // console.log(src);
+      driver.executeScript("sauce:job-name=My Job");
 
       const btn = await getElementById(driver, 'checked_checkbox');
       await btn.click();
